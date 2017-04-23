@@ -1,12 +1,18 @@
 # C++ Coding Conventions
 A set of informal coding conventions for C++
 
----
-
 # Contents
-- Definitions
-- Naming Rules
-- Spacing Rules
+- [Definitions](Conventions.md#definitions)
+  - [Pascal Case](Conventions.md#pascal-case)
+  - [Camel Case](Conventions.md#camel-case)
+  - [Macro Case](Conventions.md#macro-case)
+- [Naming Rules](Conventions.md#naming-rules)
+  - [Acronyms](Conventions.md#acronyms)
+  - [Language Features](Conventions.md#language-features)
+- [Spacing Rules](Conventions.md#spacing-rules)
+  - [Operators](Conventions.md#operators)
+    - [Unary Operators](Conventions.md#unary-operators)
+    - [Binary Operators](Conventions.md#binary-operators)
 
 ---
 
@@ -48,7 +54,7 @@ A set of informal coding conventions for C++
 ## Acronyms
 - Acronyms should match the default casing rules.
 
-### Example
+### Examples
 - ejectUsb (camelCase)
 - usbPort (camelCase)
 - EjectUsb (PascalCase)
