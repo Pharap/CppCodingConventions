@@ -1,7 +1,7 @@
 # C++ Coding Conventions
 A set of informal coding conventions for C++
 
-# Contents
+## Contents
 - [Definitions](Conventions.md#definitions)
   - [Pascal Case](Conventions.md#pascal-case)
   - [Camel Case](Conventions.md#camel-case)
@@ -16,51 +16,51 @@ A set of informal coding conventions for C++
 
 ---
 
-# Definitions
+## Definitions
 
-## Pascal Case
+### Pascal Case
 - No underscores.
 - Each word in an identifier begins with an upper case letter.
 
-### Examples
+#### Examples
 - `PascalCase`
 - `UsbPort`
 - `Run()`
 
-## Camel Case
+### Camel Case
 - No underscores.
 - Each word in an identifier begins with an upper case letter.
 - The first letter of the identifier is in lower case.
 
-### Examples
+#### Examples
 - `camelCase`
 - `usbPort`
 - `run()`
 
-## Macro Case
+### Macro Case
 - No lower case letters.
 - All words in upper case (a.k.a. "all caps").
 - Words are delimited by underscores.
 
-### Examples
+#### Examples
 - `MACRO_CASE`
 - `USB_PORT`
 - `RUN()`
 
 ---
 
-# Naming Rules
+## Naming Rules
 
-## Acronyms
+### Acronyms
 - Acronyms should match the default casing rules.
 
-### Examples
+#### Examples
 - ejectUsb (camelCase)
 - usbPort (camelCase)
 - EjectUsb (PascalCase)
 - UsbPort (PascalCase)
 
-## Language Features
+### Language Features
 
 | Feature          | Ruling      |
 |------------------|-------------|
@@ -75,17 +75,17 @@ A set of informal coding conventions for C++
 
 ---
 
-# Spacing Rules
+## Spacing Rules
 
-## Operators
+### Operators
 
-### Unary Operators
+#### Unary Operators
 - No space between the operator and the expression
 
-### Binary Operators
+#### Binary Operators
 - Should have space on either side of the operator
 
-### Examples
+#### Examples
 - `!a`
 - `a + b`
 - `!(a && b)`
