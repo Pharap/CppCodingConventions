@@ -14,8 +14,6 @@ A set of informal coding conventions for C++
     - [Unary Operators](Conventions.md#unary-operators)
     - [Binary Operators](Conventions.md#binary-operators)
 
----
-
 ## Definitions
 
 ### Pascal Case
@@ -47,8 +45,6 @@ A set of informal coding conventions for C++
 - `USB_PORT`
 - `RUN()`
 
----
-
 ## Naming Rules
 
 ### Acronyms
@@ -72,8 +68,6 @@ A set of informal coding conventions for C++
 | Free Functions   | Pascal Case |
 | Variables        | Camel Case  |
 | Arguments        | Camel Case  |
-
----
 
 ## Spacing Rules
 
